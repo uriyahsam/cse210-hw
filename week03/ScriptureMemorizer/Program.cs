@@ -1,3 +1,42 @@
+/*
+============================================================
+Scripture Memorizer Program - CSE 210 | Encapsulation
+============================================================
+
+Author: URIYAH SAM
+Date: March, 21, 2025
+Description:
+This program helps users memorize scriptures by progressively hiding words.
+Users can select difficulty levels, request hints, and enable a timed challenge mode.
+
+Features Added Beyond Requirements:
+------------------------------------------------------------
+✅ Multiple Scriptures: Loads scriptures from a file (`scriptures.txt`).
+✅ Random Scripture Selection: A scripture is chosen randomly at the start.
+✅ Intelligent Word Hiding: Ensures unique words are hidden progressively.
+✅ Difficulty Levels:
+   - Easy: Hides 1 word per round.
+   - Medium: Hides 3 words per round.
+   - Hard: Hides 5 words per round.
+✅ Hint Feature: Users can type "hint" to reveal a hidden word.
+✅ Timed Challenge Mode: Users can set a countdown timer to memorize within a limited time.
+✅ Live Countdown Display: Shows time remaining during timed mode.
+✅ Encapsulation & Clean Code: Uses separate classes for Scripture, Reference, and Word.
+
+------------------------------------------------------------
+Future Enhancements (To Be Implemented):
+🔲 Sound Alert: Beep when time is almost up (not yet implemented).
+🔲 High Score Tracker: Store user progress across sessions.
+
+Instructions:
+- Run the program and choose a scripture to memorize.
+- Press "Enter" to hide words progressively.
+- Type "hint" to reveal a word.
+- Type "quit" to exit the program.
+
+============================================================
+*/
+
 using System;
 using System.Collections.Generic;
 using System.IO;
